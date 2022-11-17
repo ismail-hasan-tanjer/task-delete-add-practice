@@ -1,0 +1,50 @@
+* {
+  
+}
+body {
+  
+  /*box-sizing: border-box;*/
+}
+.main {
+  
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+
+#task-add {
+  
+  margin: auto;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgreen;
+  color: green;
+}
+input[type="text"] {
+  padding: 5px 30px;
+  border: none;
+}
+input[type="text"]:focus {
+  border: 2px solid rgb(24, 9, 9);
+}
+input[type="button"] {
+  padding: 5px 10px;
+  background-color: cornsilk;
+  border: none;
+  border-radius: 5px;
+  color: rgb(14, 4, 19);
+  cursor: pointer;
+}
+.task-display-section {
+  width: auto;
+  margin: auto;
+  padding: 20px 50px;
+  background-color: ghostwhite;
+  color: whitesmoke;
+}
+.task-display h3 {
+}
